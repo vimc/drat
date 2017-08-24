@@ -1,0 +1,24 @@
+Package: montagu
+Version: 0.1.0
+Imports: getPass, httr, openssl, progress
+Suggests: testthat
+License: MIT + file LICENSE
+MD5sum: 766da02c2dd91aa4f4cc2e660e05645f
+NeedsCompilation: no
+
+Package: orderly
+Version: 0.1.0
+Imports: DBI, R6, RSQLite, digest, ids, jsonlite, optparse, withr, yaml
+Suggests: knitr, montagu, png, processx, rmarkdown, testthat
+License: MIT + file LICENSE
+MD5sum: 738174a5c22f4c7a775f3908bde8066e
+NeedsCompilation: no
+
+Package: vaultr
+Version: 0.0.1
+Imports: R6, httr, jsonlite, prettyunits
+Suggests: processx, testthat
+License: MIT + file LICENSE
+MD5sum: 8b113bc12286314ccc2992acba4e6235
+NeedsCompilation: no
+
