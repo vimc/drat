@@ -17,8 +17,8 @@ NeedsCompilation: no
 Package: vaultr
 Version: 0.0.1
 Imports: R6, httr, jsonlite, prettyunits
-Suggests: processx, testthat
+Suggests: processx, testthat, withr
 License: MIT + file LICENSE
-MD5sum: 8b113bc12286314ccc2992acba4e6235
+MD5sum: 29fc9c7893d3ac9a354edc3c81f7680d
 NeedsCompilation: no
 
