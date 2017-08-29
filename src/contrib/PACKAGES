@@ -19,6 +19,6 @@ Version: 0.0.1
 Imports: R6, httr, jsonlite, prettyunits
 Suggests: processx, testthat, withr
 License: MIT + file LICENSE
-MD5sum: 29fc9c7893d3ac9a354edc3c81f7680d
+MD5sum: 02d756e694bbfec63e702a8b0c1ab797
 NeedsCompilation: no
 
