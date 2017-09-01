@@ -12,7 +12,7 @@ Imports: DBI, R6, RSQLite, digest, ids, jsonlite, optparse, withr, yaml
 Suggests: knitr, montagu, png, processx, rmarkdown, testthat, vaultr
         (>= 0.0.2)
 License: MIT + file LICENSE
-MD5sum: 5ab847dce6c551cdbecc391db448775f
+MD5sum: 853d1fc7f0c2ca16dddebdce67eb3b78
 NeedsCompilation: no
 
 Package: vaultr
