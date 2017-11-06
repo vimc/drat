@@ -1,9 +1,9 @@
 Package: montagu
-Version: 0.1.4
+Version: 0.1.5
 Imports: getPass, httr, openssl, progress
 Suggests: testthat
 License: MIT + file LICENSE
-MD5sum: 128b76e4ea75b19881983a97f457b65a
+MD5sum: 84513112fe616fcc7ded1931d69c71ed
 NeedsCompilation: no
 
 Package: orderly
