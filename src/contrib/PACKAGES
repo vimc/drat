@@ -1,8 +1,8 @@
 Package: jenner
-Version: 0.0.2
+Version: 0.0.3
 Imports: RcppRoll, RPostgres, vaultr, whisker, yaml
 License: MIT + file LICENSE
-MD5sum: 0a986ba4bf729176c711385934d5f93e
+MD5sum: a959d0a02f3e8a1395491a520f322a91
 NeedsCompilation: no
 
 Package: montagu
