@@ -3,3 +3,4 @@ vimc/montagu-r@master
 vimc/orderly@master
 vimc/vaultr@master
 vimc/jenner@master
+ropensci/cyphr@master
