@@ -10,7 +10,7 @@ Version: 0.1.5
 Imports: getPass, httr, openssl, progress
 Suggests: testthat
 License: MIT + file LICENSE
-MD5sum: 84513112fe616fcc7ded1931d69c71ed
+MD5sum: 56e9cfdc458f2aa5e274fea7d177daeb
 NeedsCompilation: no
 
 Package: orderly
