@@ -8,10 +8,10 @@ MD5sum: 3b6dd20d4d9ae9c895c2733d3e858011
 NeedsCompilation: no
 
 Package: jenner
-Version: 0.0.8
+Version: 0.0.9
 Imports: RcppRoll, RPostgres, vaultr, whisker, yaml
 License: MIT + file LICENSE
-MD5sum: 1220bade10bebb42bd4fffc63f7c8360
+MD5sum: 060ae8dd0b303e25b2a435dff1c21080
 NeedsCompilation: no
 
 Package: montagu
