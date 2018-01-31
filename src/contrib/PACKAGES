@@ -1,10 +1,10 @@
 Package: cyphr
 Version: 0.2.0
 Depends: R (>= 3.2.1)
-Imports: getPass, openssl (>= 0.9.6), sodium
+Imports: getPass, openssl (>= 0.9.9), sodium
 Suggests: knitr, rmarkdown, testthat
 License: MIT + file LICENSE
-MD5sum: 3b6dd20d4d9ae9c895c2733d3e858011
+MD5sum: 04006f26e97ca32bef8e9dbd2cf28768
 NeedsCompilation: no
 
 Package: jenner
