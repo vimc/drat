@@ -32,10 +32,10 @@ MD5sum: d20ffd1122e1e38575a5f0ba80b11cf8
 NeedsCompilation: no
 
 Package: vaultr
-Version: 0.0.2
+Version: 0.0.3
 Imports: R6, httr, jsonlite, prettyunits
-Suggests: processx, testthat, withr
+Suggests: cyphr, processx, testthat, withr
 License: MIT + file LICENSE
-MD5sum: 952a1bf2f55b19e97e0bd07ee2e623be
+MD5sum: fa8dda302c711db04c4162403819d913
 NeedsCompilation: no
 
