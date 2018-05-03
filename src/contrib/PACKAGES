@@ -32,6 +32,14 @@ License: MIT + file LICENSE
 MD5sum: 1dc38902d68060bb5bcbe978daaa262a
 NeedsCompilation: no
 
+Package: phipps
+Version: 0.0.1
+Depends: R (>= 3.1.0)
+Imports: devtools, dplyr, ggplot2, RColorBrewer, vdiffr, testthat
+Suggests: testthat
+MD5sum: c70134a82b48443671836d5da1ee3f84
+NeedsCompilation: no
+
 Package: vaultr
 Version: 0.0.3
 Imports: R6, httr, jsonlite, prettyunits
