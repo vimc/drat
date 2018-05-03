@@ -16,11 +16,11 @@ MD5sum: ffa90f7ccb1d0ef531afd1482058c774
 NeedsCompilation: no
 
 Package: montagu
-Version: 0.1.5
+Version: 0.1.6
 Imports: getPass, httr, openssl, progress
 Suggests: testthat
 License: MIT + file LICENSE
-MD5sum: 4ee4db51dd74f2168fca3119d307398e
+MD5sum: f314ae778a812137773e7598f8af1c7c
 NeedsCompilation: no
 
 Package: orderly
