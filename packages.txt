@@ -1,6 +1,6 @@
 # Currently nothing is stable
 vimc/montagu-r@master
-vimc/orderly@master
+vimc/orderly@release
 vimc/vaultr@master
 vimc/jenner@master
 ropensci/cyphr@master
