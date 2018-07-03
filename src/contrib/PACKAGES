@@ -16,11 +16,13 @@ MD5sum: c1c5bc9d82cba60eb8cc6b098f076dac
 NeedsCompilation: no
 
 Package: montagu
-Version: 0.2.0
-Imports: R6, getPass, httr, jsonlite, openssl, progress
-Suggests: testthat, withr
+Version: 0.2.2
+Imports: R6, getPass, httr, jsonlite, openssl, progress (>= 1.2.0),
+        rappdirs, storr
+Suggests: orderly (>= 0.4.7), orderly.server (>= 0.1.1), sys, testthat,
+        withr
 License: MIT + file LICENSE
-MD5sum: 7df3f1e68129572f2fd29dfe1e6a5169
+MD5sum: 8918f0d7bc6db5d2fc7dd0ce3c66affc
 NeedsCompilation: no
 
 Package: orderly
