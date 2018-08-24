@@ -12,7 +12,7 @@ Version: 0.0.19
 Imports: DBI, RcppRoll, RPostgres, vaultr, whisker, yaml
 Suggests: RSQLite, testthat (>= 1.0.2)
 License: MIT + file LICENSE
-MD5sum: 4d94d4ee9811804d04a6fbdc69a376dd
+MD5sum: d23350f3ccf9940e07e1fab24f3537e6
 NeedsCompilation: no
 
 Package: montagu
