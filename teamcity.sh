@@ -5,7 +5,6 @@ GIT_BRANCH=$(git symbolic-ref --short HEAD)
 if [ "$GIT_BRANCH" = "i1594" ]; then
     docker pull richfitz/drat.builder
     docker run --rm \
-           --entrypoint bash -it \
            -e GIT_AUTHOR_EMAIL="$(git config --get user.email)" \
            -e GIT_AUTHOR_NAME="$(git config --get user.name)" \
            -e GIT_COMMITTER_EMAIL="$(git config --get user.email)" \
