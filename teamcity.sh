@@ -2,7 +2,7 @@
 set -ex
 
 GIT_BRANCH=$(git symbolic-ref --short HEAD)
-if [ "$GIT_BRANCH" = "i1594" ]; then
+if [ "$GIT_BRANCH" = "master" ]; then
     docker pull richfitz/drat.builder
     docker run --rm \
            -e GIT_AUTHOR_EMAIL="$(git config --get user.email)" \
