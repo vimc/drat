@@ -8,11 +8,11 @@ MD5sum: 04006f26e97ca32bef8e9dbd2cf28768
 NeedsCompilation: no
 
 Package: jenner
-Version: 0.0.20
+Version: 0.0.21
 Imports: DBI, RcppRoll, RPostgres, vaultr, whisker, yaml
 Suggests: RSQLite, testthat (>= 1.0.2)
 License: MIT + file LICENSE
-MD5sum: 71982a13e263f356adfcbd42ae18784a
+MD5sum: b20b641ebe1f4e43265f29f5086652e3
 NeedsCompilation: no
 
 Package: montagu
