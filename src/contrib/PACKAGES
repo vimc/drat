@@ -1,3 +1,10 @@
+Package: beers
+Version: 0.1.0
+Suggests: knitr, rmarkdown, testthat
+License: MIT + file LICENSE
+MD5sum: 36d8d343800b3c68564876bb36994e22
+NeedsCompilation: no
+
 Package: cyphr
 Version: 0.2.0
 Depends: R (>= 3.2.1)
