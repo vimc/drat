@@ -1,6 +1,6 @@
 # Currently nothing is stable
 vimc/montagu-r@master {"vignettes": false}
-vimc/orderly@release
+vimc/orderly@master
 vimc/vaultr@master
 vimc/jenner@master
 ropensci/cyphr@master
