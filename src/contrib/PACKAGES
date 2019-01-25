@@ -29,7 +29,7 @@ Imports: R6, getPass, httr, jsonlite, openssl, progress (>= 1.2.0),
 Suggests: knitr, orderly (>= 0.5.11), orderly.server (>= 0.1.1),
         rmarkdown, sys, testthat, withr
 License: MIT + file LICENSE
-MD5sum: 9c05b6371c8a2c0ca9733b8a674c2e9f
+MD5sum: 48b947c0a1dd6afa2d1c3ce204b6bad3
 NeedsCompilation: no
 
 Package: orderly
