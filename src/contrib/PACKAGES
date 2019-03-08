@@ -32,6 +32,15 @@ License: MIT + file LICENSE
 MD5sum: b39efaf76e587cd6e523ba0ee2976396
 NeedsCompilation: no
 
+Package: orderly.server
+Version: 0.1.2
+Imports: R6, httpuv, jsonlite, optparse, orderly (>= 0.4.4), processx,
+        webutils
+Suggests: httr, jsonvalidate, sys, testthat
+License: MIT + file LICENSE
+MD5sum: e5df09abf67569b84621d6e8246c2a48
+NeedsCompilation: no
+
 Package: orderly
 Version: 0.5.17
 Imports: DBI, R6, RSQLite, digest, ids, jsonlite, optparse, withr, yaml
