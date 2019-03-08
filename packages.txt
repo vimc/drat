@@ -1,7 +1,8 @@
 # Currently nothing is stable
-vimc/montagu-r@master {"vignettes": false}
+vimc/montagu-r@master
 vimc/orderly@master
 vimc/vaultr@master
 vimc/jenner@master
+vimc/orderly.server@master
 ropensci/cyphr@master
 mrc-ide/beers
