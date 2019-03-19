@@ -47,7 +47,7 @@ Imports: DBI, R6, RSQLite, digest, ids, jsonlite, optparse, withr, yaml
 Suggests: httr, knitr, mockery, processx, rmarkdown, testthat, vaultr
         (>= 0.2.0)
 License: MIT + file LICENSE
-MD5sum: 5dc74268b31fc63b105832973ebb1529
+MD5sum: 2e5a965568c1c97a3074948186b91e83
 NeedsCompilation: no
 
 Package: phipps
