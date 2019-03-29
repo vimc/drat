@@ -6,12 +6,11 @@ MD5sum: 36d8d343800b3c68564876bb36994e22
 NeedsCompilation: no
 
 Package: cyphr
-Version: 0.2.0
-Depends: R (>= 3.2.1)
+Version: 1.0.1
 Imports: getPass, openssl (>= 0.9.9), sodium
 Suggests: knitr, rmarkdown, testthat
 License: MIT + file LICENSE
-MD5sum: 04006f26e97ca32bef8e9dbd2cf28768
+MD5sum: f20bf2fb2635176e275049f74bba88e9
 NeedsCompilation: no
 
 Package: jenner
