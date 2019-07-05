@@ -41,12 +41,12 @@ MD5sum: 5891b42733c3be14f1c94b319a619256
 NeedsCompilation: no
 
 Package: orderly
-Version: 0.6.2
+Version: 0.7.6
 Imports: DBI, R6, RSQLite, digest, ids, jsonlite, optparse, withr, yaml
 Suggests: httr, knitr, mockery, processx, rmarkdown, testthat, vaultr
-        (>= 0.2.0)
+        (>= 1.0.0)
 License: MIT + file LICENSE
-MD5sum: e0bcf9523ec1d9c54a464344418f691f
+MD5sum: 355c021ba0113e2e7c20a4d6fdcbf252
 NeedsCompilation: no
 
 Package: phipps
