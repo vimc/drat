@@ -32,12 +32,12 @@ MD5sum: 948bde1f81d4d931c198158e84b76ab7
 NeedsCompilation: no
 
 Package: orderly.server
-Version: 0.1.2
-Imports: R6, httpuv, jsonlite, optparse, orderly (>= 0.4.4), processx,
+Version: 0.1.3
+Imports: R6, httpuv, jsonlite, optparse, orderly (>= 0.7.0), processx,
         webutils
 Suggests: httr, jsonvalidate, sys, testthat
 License: MIT + file LICENSE
-MD5sum: 5891b42733c3be14f1c94b319a619256
+MD5sum: 86cfd65a439fca087067ab0c63cfa2f6
 NeedsCompilation: no
 
 Package: orderly
