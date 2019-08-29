@@ -4,5 +4,6 @@ vimc/orderly@master
 vimc/vaultr@master
 vimc/jenner@master
 vimc/orderly.server@master
+vimc/orderlyweb@master
 ropensci/cyphr@master
 mrc-ide/beers
