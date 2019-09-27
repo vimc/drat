@@ -52,10 +52,10 @@ NeedsCompilation: no
 
 Package: orderlyweb
 Version: 0.1.1
-Imports: R6, httr, jsonlite, orderly, progress
+Imports: R6, httr, jsonlite, orderly (>= 0.7.11), progress
 Suggests: mockery, testthat
 License: MIT + file LICENSE
-MD5sum: 121e71d687f87c5ed193d7b012d23048
+MD5sum: 941d63a5f3590987be30d7372b701a5c
 NeedsCompilation: no
 
 Package: phipps
