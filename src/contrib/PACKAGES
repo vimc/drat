@@ -41,13 +41,13 @@ MD5sum: 86cfd65a439fca087067ab0c63cfa2f6
 NeedsCompilation: no
 
 Package: orderly
-Version: 0.7.13
-Imports: DBI, R6, RSQLite, digest, fs, ids, jsonlite, optparse, withr,
-        yaml
-Suggests: httr, knitr, mockery, processx, rmarkdown, testthat, vaultr
-        (>= 1.0.0)
+Version: 0.7.15
+Imports: DBI, R6, RSQLite, digest, docopt, fs, ids, withr, yaml, zip
+        (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.0)
 License: MIT + file LICENSE
-MD5sum: a110fae150d7ec865f2d010a6536ed31
+MD5sum: 1e8e07f32890d702cfcb6128f6139d53
 NeedsCompilation: no
 
 Package: orderlyweb
