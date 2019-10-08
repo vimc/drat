@@ -13,6 +13,15 @@ License: MIT + file LICENSE
 MD5sum: 5aeaac94fe49924d8deba436fd2a722b
 NeedsCompilation: no
 
+Package: dettl
+Version: 0.0.8
+Imports: bit64, DBI, gert, R6, yaml, withr, writexl
+Suggests: knitr, mockery, readxl, rmarkdown, RPostgres, RSQLite,
+        testthat, vaultr (>= 0.2.2)
+License: MIT + file LICENSE
+MD5sum: 9174f25fe050681a39ed657f0480436d
+NeedsCompilation: no
+
 Package: jenner
 Version: 0.0.26
 Imports: DBI, RcppRoll, RPostgres, vaultr (>= 0.2.0), whisker, yaml
