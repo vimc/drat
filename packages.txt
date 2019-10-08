@@ -7,3 +7,4 @@ vimc/orderly.server@master
 vimc/orderlyweb@master
 ropensci/cyphr@master
 mrc-ide/beers
+vimc/dettl
