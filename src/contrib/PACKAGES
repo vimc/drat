@@ -64,7 +64,7 @@ Version: 0.1.2
 Imports: R6, httr, jsonlite, orderly (>= 0.7.11), progress
 Suggests: mockery, testthat
 License: MIT + file LICENSE
-MD5sum: e9bc403a521dcc2685d27a6a44669c1e
+MD5sum: c80a5defcb043adaa3c5e4c179c22032
 NeedsCompilation: no
 
 Package: phipps
