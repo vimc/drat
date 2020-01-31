@@ -61,11 +61,11 @@ MD5sum: 5bb5696d55c12b6380d678518880b858
 NeedsCompilation: no
 
 Package: orderlyweb
-Version: 0.1.3
+Version: 0.1.4
 Imports: R6, httr, jsonlite, orderly (>= 0.7.11), progress
 Suggests: mockery, testthat
 License: MIT + file LICENSE
-MD5sum: fb9f216a39bbeb968a3e1f9543cebe60
+MD5sum: 448bcb8fade9b708c763a6abc4f49855
 NeedsCompilation: no
 
 Package: phipps
