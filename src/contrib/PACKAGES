@@ -47,7 +47,7 @@ Imports: R6, httpuv, jsonlite, docopt, orderly (>= 0.7.14), processx,
         webutils
 Suggests: httr, jsonvalidate, sys, testthat
 License: MIT + file LICENSE
-MD5sum: 5bb5696d55c12b6380d678518880b858
+MD5sum: 5913027993600944bda955b9646caeea
 NeedsCompilation: no
 
 Package: orderly
