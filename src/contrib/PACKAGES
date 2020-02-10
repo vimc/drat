@@ -41,16 +41,6 @@ License: MIT + file LICENSE
 MD5sum: e6ee2988eb914664bb59b7b7b7c219c3
 NeedsCompilation: no
 
-Package: orderly
-Version: 1.0.6
-Imports: DBI, R6, RSQLite, digest, docopt, fs (>= 1.2.7), ids, withr,
-        yaml, zip (>= 2.0.0)
-Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
-        testthat, vaultr (>= 1.0.0)
-License: MIT + file LICENSE
-MD5sum: 2a81721ab25b98e3a898233f530a50ea
-NeedsCompilation: no
-
 Package: orderly.server
 Version: 0.1.4
 Imports: R6, httpuv, jsonlite, docopt, orderly (>= 0.7.14), processx,
@@ -58,6 +48,16 @@ Imports: R6, httpuv, jsonlite, docopt, orderly (>= 0.7.14), processx,
 Suggests: httr, jsonvalidate, sys, testthat
 License: MIT + file LICENSE
 MD5sum: 5bb5696d55c12b6380d678518880b858
+NeedsCompilation: no
+
+Package: orderly
+Version: 1.0.8
+Imports: DBI, R6, RSQLite, digest, docopt, fs (>= 1.2.7), ids, withr,
+        yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.3)
+License: MIT + file LICENSE
+MD5sum: 824fbc208e6b712c9163415aee3dce19
 NeedsCompilation: no
 
 Package: orderlyweb
