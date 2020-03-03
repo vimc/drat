@@ -14,13 +14,13 @@ MD5sum: 1b3d6b5d8c98ad914ac28884792161a2
 NeedsCompilation: no
 
 Package: dettl
-Version: 0.0.14
+Version: 0.0.15
 Depends: R (>= 3.5.0)
 Imports: bit64, DBI, gert, R6, testthat, yaml, withr, writexl
 Suggests: docopt, knitr, mockery, readxl, rmarkdown, RPostgres,
         RSQLite, vaultr (>= 0.2.2)
 License: MIT + file LICENSE
-MD5sum: de55c3a3b656ae1b88240f5a27ef58c9
+MD5sum: ac5b58655461457f3556cdd83ff99069
 NeedsCompilation: no
 
 Package: jenner
