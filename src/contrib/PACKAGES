@@ -20,7 +20,7 @@ Imports: bit64, DBI, gert, R6, testthat, yaml, withr, writexl
 Suggests: docopt, knitr, mockery, readxl, rmarkdown, RPostgres,
         RSQLite, vaultr (>= 0.2.2)
 License: MIT + file LICENSE
-MD5sum: ac5b58655461457f3556cdd83ff99069
+MD5sum: ebc290056e8a032b73e326fbf2e05f94
 NeedsCompilation: no
 
 Package: jenner
