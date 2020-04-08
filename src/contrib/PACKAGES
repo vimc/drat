@@ -51,13 +51,13 @@ MD5sum: c494d900a4b2af081ec836bcd4483dea
 NeedsCompilation: no
 
 Package: orderly
-Version: 1.1.20
+Version: 1.1.21
 Imports: DBI, R6, RSQLite, crayon, digest, docopt, fs (>= 1.2.7), ids,
         withr, yaml, zip (>= 2.0.0)
 Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
         testthat, vaultr (>= 1.0.4)
 License: MIT + file LICENSE
-MD5sum: 217cad142bd6304a2b877aaa4acad759
+MD5sum: 7dced55ebb0a8a34150bfb97dc314d18
 NeedsCompilation: no
 
 Package: orderlyweb
