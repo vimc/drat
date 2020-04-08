@@ -76,6 +76,14 @@ Suggests: testthat
 MD5sum: c70134a82b48443671836d5da1ee3f84
 NeedsCompilation: no
 
+Package: pkgapi
+Version: 0.0.2
+Imports: R6, jsonlite, jsonvalidate (>= 1.2.2), plumber
+Suggests: testthat
+License: MIT + file LICENSE
+MD5sum: da8d3f6058ec1fe73f64a039baaddec1
+NeedsCompilation: no
+
 Package: vaultr
 Version: 1.0.4
 Imports: R6, getPass, httr, jsonlite
