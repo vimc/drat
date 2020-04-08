@@ -8,3 +8,4 @@ vimc/orderlyweb@master
 ropensci/cyphr@master
 mrc-ide/beers
 vimc/dettl
+reside-ic/pkgapi
