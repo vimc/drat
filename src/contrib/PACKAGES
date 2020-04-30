@@ -77,11 +77,11 @@ MD5sum: c70134a82b48443671836d5da1ee3f84
 NeedsCompilation: no
 
 Package: pkgapi
-Version: 0.0.6
+Version: 0.0.7
 Imports: R6, jsonlite, jsonvalidate (>= 1.2.2), plumber
 Suggests: testthat, withr
 License: MIT + file LICENSE
-MD5sum: 5eabb627e788cda50ec75ced9db89ebc
+MD5sum: fb8d35f2ecc9bdac405f68293bd9115a
 NeedsCompilation: no
 
 Package: vaultr
