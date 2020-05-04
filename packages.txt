@@ -1,6 +1,7 @@
 # Currently nothing is stable
 vimc/montagu-r@master
 vimc/orderly@master
+vimc/orderly.rstudio
 vimc/vaultr@master
 vimc/jenner@master
 vimc/orderly.server@master
