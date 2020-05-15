@@ -31,6 +31,14 @@ License: MIT + file LICENSE
 MD5sum: 768da5f6cec7607dd29b932793e043aa
 NeedsCompilation: no
 
+Package: jsonvalidate
+Version: 1.2.2
+Imports: V8
+Suggests: knitr, jsonlite, rmarkdown, testthat
+License: MIT + file LICENSE
+MD5sum: a35b5bdd6f2d264a01625f6dfc157699
+NeedsCompilation: no
+
 Package: montagu
 Version: 0.6.1
 Imports: R6, getPass, httr, jsonlite, openssl, progress (>= 1.2.0),
