@@ -6,9 +6,9 @@ vimc/vaultr@master
 vimc/jenner@master
 vimc/orderly.server@master
 vimc/orderlyweb@master
-vimc/orderly.rstudio
 vimc/orderly.sharepoint
 ropensci/cyphr@master
 mrc-ide/beers
 vimc/dettl
 reside-ic/pkgapi
+ropensci/jsonvalidate
