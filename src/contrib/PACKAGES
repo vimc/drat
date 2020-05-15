@@ -47,7 +47,7 @@ Imports: DT, htmlwidgets, miniUI (>= 0.1.1), orderly, rstudioapi (>=
         0.5), shiny (>= 0.13),
 Suggests: rmarkdown, testthat, withr
 License: MIT + file LICENSE
-MD5sum: fc2448cf36a25c0da8a01a4ddf76f82f
+MD5sum: 8602e647fdfa00feeab3312d79611b43
 NeedsCompilation: no
 
 Package: orderly.server
