@@ -1274,5 +1274,5 @@ Version: 1.0.4
 Imports: R6, getPass, httr, jsonlite
 Suggests: knitr, mockery, processx, rmarkdown, testthat, withr
 License: MIT + file LICENSE
-MD5sum: aa5224a13c7e07132746568c78ceb35b
+MD5sum: 4dbe61ee4f287869f8557d576e9f98c8
 NeedsCompilation: no
