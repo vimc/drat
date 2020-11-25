@@ -6,11 +6,64 @@ MD5sum: 36d8d343800b3c68564876bb36994e22
 NeedsCompilation: no
 
 Package: cyphr
+Version: 0.2.0
+Depends: R (>= 3.2.1)
+Imports: getPass, openssl (>= 0.9.9), sodium
+Suggests: knitr, rmarkdown, testthat
+License: MIT + file LICENSE
+MD5sum: 04006f26e97ca32bef8e9dbd2cf28768
+NeedsCompilation: no
+
+Package: cyphr
+Version: 1.0.1
+Imports: getPass, openssl (>= 0.9.9), sodium
+Suggests: knitr, rmarkdown, testthat
+License: MIT + file LICENSE
+MD5sum: 6dfe8a49f0fbac932dd4fa092395c216
+NeedsCompilation: no
+
+Package: cyphr
+Version: 1.0.2
+Imports: getPass, openssl (>= 0.9.9), sodium
+Suggests: knitr, rmarkdown, testthat
+License: MIT + file LICENSE
+MD5sum: 54969d4123ca724242624dad9def1708
+NeedsCompilation: no
+
+Package: cyphr
+Version: 1.0.3
+Imports: getPass, openssl (>= 0.9.9), sodium
+Suggests: knitr, rmarkdown, testthat
+License: MIT + file LICENSE
+MD5sum: 1b3d6b5d8c98ad914ac28884792161a2
+NeedsCompilation: no
+
+Package: cyphr
 Version: 1.1.0
 Imports: getPass, openssl (>= 0.9.9), sodium
 Suggests: knitr, rmarkdown, testthat
 License: MIT + file LICENSE
 MD5sum: b6a72f30f9130ee01b460f7a00529ada
+NeedsCompilation: no
+
+Package: dettl
+Version: 0.0.13
+Depends: R (>= 3.5.0)
+Imports: bit64, DBI, gert, R6, testthat, yaml, withr, writexl
+Suggests: docopt, knitr, mockery, readxl, rmarkdown, RPostgres,
+        RSQLite, vaultr (>= 0.2.2)
+License: MIT + file LICENSE
+MD5sum: 80aa3b65dcd92138c53340fe6ea4354b
+NeedsCompilation: no
+
+Package: dettl
+Version: 0.0.14
+Depends: R (>= 3.5.0)
+Imports: bit64, DBI, gert, R6, testthat, yaml, withr, writexl
+Suggests: docopt, knitr, mockery, readxl, rmarkdown, RPostgres,
+        RSQLite, vaultr (>= 0.2.2)
+License: MIT + file LICENSE
+MD5sum: de55c3a3b656ae1b88240f5a27ef58c9
 NeedsCompilation: no
 
 Package: dettl
@@ -23,6 +76,143 @@ License: MIT + file LICENSE
 MD5sum: ebc290056e8a032b73e326fbf2e05f94
 NeedsCompilation: no
 
+Package: dettl
+Version: 0.0.8
+Imports: bit64, DBI, gert, R6, yaml, withr, writexl
+Suggests: knitr, mockery, readxl, rmarkdown, RPostgres, RSQLite,
+        testthat, vaultr (>= 0.2.2)
+License: MIT + file LICENSE
+MD5sum: 9174f25fe050681a39ed657f0480436d
+NeedsCompilation: no
+
+Package: dettl
+Version: 0.0.9
+Depends: R (>= 3.5.0)
+Imports: bit64, DBI, gert, R6, yaml, withr, writexl
+Suggests: knitr, mockery, readxl, rmarkdown, RPostgres, RSQLite,
+        testthat, vaultr (>= 0.2.2)
+License: MIT + file LICENSE
+MD5sum: 93e153a6ba4b120cbaa308d5e1c98710
+NeedsCompilation: no
+
+Package: jenner
+Version: 0.0.10
+Imports: RcppRoll, RPostgres, vaultr, whisker, yaml
+License: MIT + file LICENSE
+MD5sum: 9bef21a40140a93b2d52317311a13455
+NeedsCompilation: no
+
+Package: jenner
+Version: 0.0.12
+Imports: DBI, RcppRoll, RPostgres, vaultr, whisker, yaml
+Suggests: RSQLite, testthat
+License: MIT + file LICENSE
+MD5sum: 131a4ce732bbb178bd7c313f5a65ae5b
+NeedsCompilation: no
+
+Package: jenner
+Version: 0.0.13
+Imports: DBI, RcppRoll, RPostgres, vaultr, whisker, yaml
+Suggests: RSQLite, testthat (>= 1.0.2)
+License: MIT + file LICENSE
+MD5sum: fcb3adcfb9b856e13c534b806b532864
+NeedsCompilation: no
+
+Package: jenner
+Version: 0.0.14
+Imports: DBI, RcppRoll, RPostgres, vaultr, whisker, yaml
+Suggests: RSQLite, testthat (>= 1.0.2)
+License: MIT + file LICENSE
+MD5sum: ffa90f7ccb1d0ef531afd1482058c774
+NeedsCompilation: no
+
+Package: jenner
+Version: 0.0.15
+Imports: DBI, RcppRoll, RPostgres, vaultr, whisker, yaml
+Suggests: RSQLite, testthat (>= 1.0.2)
+License: MIT + file LICENSE
+MD5sum: c91ff9cb81925edd39b51e879b963620
+NeedsCompilation: no
+
+Package: jenner
+Version: 0.0.16
+Imports: DBI, RcppRoll, RPostgres, vaultr, whisker, yaml
+Suggests: RSQLite, testthat (>= 1.0.2)
+License: MIT + file LICENSE
+MD5sum: c1c5bc9d82cba60eb8cc6b098f076dac
+NeedsCompilation: no
+
+Package: jenner
+Version: 0.0.17
+Imports: DBI, RcppRoll, RPostgres, vaultr, whisker, yaml
+Suggests: RSQLite, testthat (>= 1.0.2)
+License: MIT + file LICENSE
+MD5sum: f6f4ae04aa7800eebef493b42d2a2152
+NeedsCompilation: no
+
+Package: jenner
+Version: 0.0.18
+Imports: DBI, RcppRoll, RPostgres, vaultr, whisker, yaml
+Suggests: RSQLite, testthat (>= 1.0.2)
+License: MIT + file LICENSE
+MD5sum: 5359d35e1f73d41f7cfc0545d00a9203
+NeedsCompilation: no
+
+Package: jenner
+Version: 0.0.19
+Imports: DBI, RcppRoll, RPostgres, vaultr, whisker, yaml
+Suggests: RSQLite, testthat (>= 1.0.2)
+License: MIT + file LICENSE
+MD5sum: d23350f3ccf9940e07e1fab24f3537e6
+NeedsCompilation: no
+
+Package: jenner
+Version: 0.0.2
+Imports: RcppRoll, RPostgres, vaultr, whisker, yaml
+License: MIT + file LICENSE
+MD5sum: 0a986ba4bf729176c711385934d5f93e
+NeedsCompilation: no
+
+Package: jenner
+Version: 0.0.20
+Imports: DBI, RcppRoll, RPostgres, vaultr, whisker, yaml
+Suggests: RSQLite, testthat (>= 1.0.2)
+License: MIT + file LICENSE
+MD5sum: 71982a13e263f356adfcbd42ae18784a
+NeedsCompilation: no
+
+Package: jenner
+Version: 0.0.21
+Imports: DBI, RcppRoll, RPostgres, vaultr, whisker, yaml
+Suggests: RSQLite, testthat (>= 1.0.2)
+License: MIT + file LICENSE
+MD5sum: b20b641ebe1f4e43265f29f5086652e3
+NeedsCompilation: no
+
+Package: jenner
+Version: 0.0.22
+Imports: DBI, RcppRoll, RPostgres, vaultr, whisker, yaml
+Suggests: RSQLite, testthat (>= 1.0.2)
+License: MIT + file LICENSE
+MD5sum: 509b881f18b44cf90d20f4044b99f0ae
+NeedsCompilation: no
+
+Package: jenner
+Version: 0.0.23
+Imports: DBI, RcppRoll, RPostgres, vaultr (>= 0.2.0), whisker, yaml
+Suggests: RSQLite, testthat (>= 1.0.2)
+License: MIT + file LICENSE
+MD5sum: d2e030aa1a5c7e46e2bb4e50392a78c9
+NeedsCompilation: no
+
+Package: jenner
+Version: 0.0.24
+Imports: DBI, RcppRoll, RPostgres, vaultr (>= 0.2.0), whisker, yaml
+Suggests: RSQLite, testthat (>= 1.0.2)
+License: MIT + file LICENSE
+MD5sum: cd498067e101bd54ac4a5b0852e7ad98
+NeedsCompilation: no
+
 Package: jenner
 Version: 0.0.26
 Imports: DBI, RcppRoll, RPostgres, vaultr (>= 0.2.0), whisker, yaml
@@ -31,12 +221,233 @@ License: MIT + file LICENSE
 MD5sum: 768da5f6cec7607dd29b932793e043aa
 NeedsCompilation: no
 
+Package: jenner
+Version: 0.0.3
+Imports: RcppRoll, RPostgres, vaultr, whisker, yaml
+License: MIT + file LICENSE
+MD5sum: a959d0a02f3e8a1395491a520f322a91
+NeedsCompilation: no
+
+Package: jenner
+Version: 0.0.4
+Imports: RcppRoll, RPostgres, vaultr, whisker, yaml
+License: MIT + file LICENSE
+MD5sum: ecfb6ea6a1830f054a9151cfb903e51d
+NeedsCompilation: no
+
+Package: jenner
+Version: 0.0.5
+Imports: RcppRoll, RPostgres, vaultr, whisker, yaml
+License: MIT + file LICENSE
+MD5sum: 578b88c0965a8ae3b8de4a4c613f7ebf
+NeedsCompilation: no
+
+Package: jenner
+Version: 0.0.6
+Imports: RcppRoll, RPostgres, vaultr, whisker, yaml
+License: MIT + file LICENSE
+MD5sum: 34b51dbdd0602c2aa481f30a981c2129
+NeedsCompilation: no
+
+Package: jenner
+Version: 0.0.7
+Imports: RcppRoll, RPostgres, vaultr, whisker, yaml
+License: MIT + file LICENSE
+MD5sum: 7e1f9ed81dfb1022c2d335d933114b45
+NeedsCompilation: no
+
+Package: jenner
+Version: 0.0.8
+Imports: RcppRoll, RPostgres, vaultr, whisker, yaml
+License: MIT + file LICENSE
+MD5sum: 1220bade10bebb42bd4fffc63f7c8360
+NeedsCompilation: no
+
+Package: jenner
+Version: 0.0.9
+Imports: RcppRoll, RPostgres, vaultr, whisker, yaml
+License: MIT + file LICENSE
+MD5sum: 060ae8dd0b303e25b2a435dff1c21080
+NeedsCompilation: no
+
 Package: jsonvalidate
 Version: 1.2.2
 Imports: V8
 Suggests: knitr, jsonlite, rmarkdown, testthat
 License: MIT + file LICENSE
 MD5sum: a35b5bdd6f2d264a01625f6dfc157699
+NeedsCompilation: no
+
+Package: montagu
+Version: 0.1.0
+Imports: getPass, httr, openssl, progress
+Suggests: testthat
+License: MIT + file LICENSE
+MD5sum: 27fa8ca8a9f230b010d67663389b85ba
+NeedsCompilation: no
+
+Package: montagu
+Version: 0.1.1
+Imports: getPass, httr, openssl, progress
+Suggests: testthat
+License: MIT + file LICENSE
+MD5sum: a145ef833894bbd4ec85e71412e1f6a0
+NeedsCompilation: no
+
+Package: montagu
+Version: 0.1.2
+Imports: getPass, httr, openssl, progress
+Suggests: testthat
+License: MIT + file LICENSE
+MD5sum: f7c20697b96169bf52336d6bf89ce234
+NeedsCompilation: no
+
+Package: montagu
+Version: 0.1.3
+Imports: getPass, httr, openssl, progress
+Suggests: testthat
+License: MIT + file LICENSE
+MD5sum: 4faf9a7dc57d5a29ede4454798641136
+NeedsCompilation: no
+
+Package: montagu
+Version: 0.1.4
+Imports: getPass, httr, openssl, progress
+Suggests: testthat
+License: MIT + file LICENSE
+MD5sum: 128b76e4ea75b19881983a97f457b65a
+NeedsCompilation: no
+
+Package: montagu
+Version: 0.1.5
+Imports: getPass, httr, openssl, progress
+Suggests: testthat
+License: MIT + file LICENSE
+MD5sum: 4ee4db51dd74f2168fca3119d307398e
+NeedsCompilation: no
+
+Package: montagu
+Version: 0.1.6
+Imports: getPass, httr, openssl, progress
+Suggests: testthat
+License: MIT + file LICENSE
+MD5sum: f314ae778a812137773e7598f8af1c7c
+NeedsCompilation: no
+
+Package: montagu
+Version: 0.1.7
+Imports: getPass, httr, openssl, progress
+Suggests: testthat
+License: MIT + file LICENSE
+MD5sum: 39389d2be12b1da99c3d3da4ec9f8895
+NeedsCompilation: no
+
+Package: montagu
+Version: 0.2.0
+Imports: R6, getPass, httr, jsonlite, openssl, progress
+Suggests: testthat, withr
+License: MIT + file LICENSE
+MD5sum: 7df3f1e68129572f2fd29dfe1e6a5169
+NeedsCompilation: no
+
+Package: montagu
+Version: 0.2.2
+Imports: R6, getPass, httr, jsonlite, openssl, progress (>= 1.2.0),
+        rappdirs, storr
+Suggests: orderly (>= 0.4.7), orderly.server (>= 0.1.1), sys, testthat,
+        withr
+License: MIT + file LICENSE
+MD5sum: 8918f0d7bc6db5d2fc7dd0ce3c66affc
+NeedsCompilation: no
+
+Package: montagu
+Version: 0.2.3
+Imports: R6, getPass, httr, jsonlite, openssl, progress (>= 1.2.0),
+        storr
+Suggests: knitr, orderly (>= 0.4.7), orderly.server (>= 0.1.1),
+        rmarkdown, sys, testthat, withr
+License: MIT + file LICENSE
+MD5sum: e2d366281dd87a9e331f6d7be2d5a836
+NeedsCompilation: no
+
+Package: montagu
+Version: 0.2.4
+Imports: R6, getPass, httr, jsonlite, openssl, progress (>= 1.2.0),
+        storr
+Suggests: knitr, orderly (>= 0.4.7), orderly.server (>= 0.1.1),
+        rmarkdown, sys, testthat, withr
+License: MIT + file LICENSE
+MD5sum: 8fa0e196ff36d3b57fc671c0c29bf325
+NeedsCompilation: no
+
+Package: montagu
+Version: 0.2.5
+Imports: R6, getPass, httr, jsonlite, openssl, progress (>= 1.2.0),
+        storr
+Suggests: knitr, orderly (>= 0.5.11), orderly.server (>= 0.1.1),
+        rmarkdown, sys, testthat, withr
+License: MIT + file LICENSE
+MD5sum: 48b947c0a1dd6afa2d1c3ce204b6bad3
+NeedsCompilation: no
+
+Package: montagu
+Version: 0.3.4
+Imports: R6, getPass, httr, jsonlite, openssl, progress (>= 1.2.0),
+        storr
+Suggests: knitr, orderly (>= 0.5.17), orderly.server (>= 0.1.2),
+        rmarkdown, sys, testthat, withr
+License: MIT + file LICENSE
+MD5sum: b39efaf76e587cd6e523ba0ee2976396
+NeedsCompilation: no
+
+Package: montagu
+Version: 0.3.7
+Imports: R6, getPass, httr, jsonlite, openssl, progress (>= 1.2.0),
+        storr
+Suggests: knitr, orderly (>= 0.5.17), orderly.server (>= 0.1.2),
+        rmarkdown, sys, testthat, withr
+License: MIT + file LICENSE
+MD5sum: f1aed5335cf39a94b0367e91a9f8537e
+NeedsCompilation: no
+
+Package: montagu
+Version: 0.3.8
+Imports: R6, getPass, httr, jsonlite, openssl, progress (>= 1.2.0),
+        storr
+Suggests: knitr, orderly (>= 0.5.17), orderly.server (>= 0.1.2),
+        rmarkdown, sys, testthat, withr
+License: MIT + file LICENSE
+MD5sum: 948bde1f81d4d931c198158e84b76ab7
+NeedsCompilation: no
+
+Package: montagu
+Version: 0.4.0
+Imports: R6, getPass, httr, jsonlite, openssl, progress (>= 1.2.0),
+        storr
+Suggests: knitr, orderly (>= 0.5.17), orderly.server (>= 0.1.2),
+        rmarkdown, sys, testthat, withr
+License: MIT + file LICENSE
+MD5sum: 98a4a681f753aef2b020e58456dcef34
+NeedsCompilation: no
+
+Package: montagu
+Version: 0.5.1
+Imports: R6, getPass, httr, jsonlite, openssl, progress (>= 1.2.0),
+        storr
+Suggests: knitr, orderly (>= 0.5.17), orderly.server (>= 0.1.2),
+        rmarkdown, sys, testthat, withr
+License: MIT + file LICENSE
+MD5sum: 92e5777187fb2e2abcea84070cc3f88c
+NeedsCompilation: no
+
+Package: montagu
+Version: 0.6.0
+Imports: R6, getPass, httr, jsonlite, openssl, progress (>= 1.2.0),
+        storr
+Suggests: knitr, orderly (>= 0.7.5), orderlyweb (>= 0.1.1), rmarkdown,
+        sys, testthat, withr
+License: MIT + file LICENSE
+MD5sum: f77e5ca5f17e995ab919a7c887288c16
 NeedsCompilation: no
 
 Package: montagu
@@ -59,6 +470,42 @@ MD5sum: 8602e647fdfa00feeab3312d79611b43
 NeedsCompilation: no
 
 Package: orderly.server
+Version: 0.1.2
+Imports: R6, httpuv, jsonlite, optparse, orderly (>= 0.4.4), processx,
+        webutils
+Suggests: httr, jsonvalidate, sys, testthat
+License: MIT + file LICENSE
+MD5sum: 5891b42733c3be14f1c94b319a619256
+NeedsCompilation: no
+
+Package: orderly.server
+Version: 0.1.3
+Imports: R6, httpuv, jsonlite, optparse, orderly (>= 0.7.0), processx,
+        webutils
+Suggests: httr, jsonvalidate, sys, testthat
+License: MIT + file LICENSE
+MD5sum: 86cfd65a439fca087067ab0c63cfa2f6
+NeedsCompilation: no
+
+Package: orderly.server
+Version: 0.1.4
+Imports: R6, httpuv, jsonlite, docopt, orderly (>= 0.7.14), processx,
+        webutils
+Suggests: httr, jsonvalidate, sys, testthat
+License: MIT + file LICENSE
+MD5sum: c494d900a4b2af081ec836bcd4483dea
+NeedsCompilation: no
+
+Package: orderly.server
+Version: 0.1.5
+Imports: R6, httpuv, jsonlite, docopt, orderly (>= 0.7.14), processx,
+        webutils
+Suggests: httr, jsonvalidate, sys, testthat
+License: MIT + file LICENSE
+MD5sum: 7285581b4d1433fc47928ae9ebaacb5f
+NeedsCompilation: no
+
+Package: orderly.server
 Version: 0.1.6
 Imports: R6, httpuv, jsonlite, docopt, orderly (>= 1.1.34), processx,
         webutils
@@ -76,6 +523,548 @@ MD5sum: 1ae77edbb9db96ed49bbd70f8c115ea9
 NeedsCompilation: no
 
 Package: orderly
+Version: 0.1.0
+Imports: DBI, R6, RSQLite, digest, ids, jsonlite, optparse, withr, yaml
+Suggests: knitr, montagu, png, processx, rmarkdown, testthat
+License: MIT + file LICENSE
+MD5sum: 9dad0ce62ad8ad83c94eca7350fa1832
+NeedsCompilation: no
+
+Package: orderly
+Version: 0.1.1
+Imports: DBI, R6, RSQLite, digest, ids, jsonlite, optparse, withr, yaml
+Suggests: knitr, montagu, png, processx, rmarkdown, testthat, vaultr
+        (>= 0.0.2)
+License: MIT + file LICENSE
+MD5sum: 41478c3d0463fb2efa779615da7aa7a8
+NeedsCompilation: no
+
+Package: orderly
+Version: 0.2.1
+Imports: DBI, R6, RSQLite, digest, ids, jsonlite, optparse, withr, yaml
+Suggests: knitr, montagu, png, processx, rmarkdown, testthat, vaultr
+        (>= 0.0.2)
+License: MIT + file LICENSE
+MD5sum: 4a79f3a1018f856e150a307eabb6f7ff
+NeedsCompilation: no
+
+Package: orderly
+Version: 0.2.2
+Imports: DBI, R6, RSQLite, digest, ids, jsonlite, optparse, withr, yaml
+Suggests: knitr, montagu, png, processx, rmarkdown, testthat, vaultr
+        (>= 0.0.2)
+License: MIT + file LICENSE
+MD5sum: 7d3c119f2a8ad2817a76b29cb84e2daf
+NeedsCompilation: no
+
+Package: orderly
+Version: 0.3.2
+Imports: DBI, R6, RSQLite, digest, ids, jsonlite, optparse, withr, yaml
+Suggests: knitr, montagu (>= 0.1.2), png, processx, rmarkdown,
+        testthat, vaultr (>= 0.0.2)
+License: MIT + file LICENSE
+MD5sum: f87014755936677c96f21ee40bc281eb
+NeedsCompilation: no
+
+Package: orderly
+Version: 0.3.3
+Imports: DBI, R6, RSQLite, digest, ids, jsonlite, optparse, withr, yaml
+Suggests: knitr, montagu (>= 0.1.2), png, processx, rmarkdown,
+        testthat, vaultr (>= 0.0.2)
+License: MIT + file LICENSE
+MD5sum: 59ddae8dec0f3215bd52f86d8ae09009
+NeedsCompilation: no
+
+Package: orderly
+Version: 0.3.4
+Imports: DBI, R6, RSQLite, digest, ids, jsonlite, optparse, withr, yaml
+Suggests: knitr, montagu (>= 0.1.2), png, processx, rmarkdown,
+        testthat, vaultr (>= 0.0.3)
+License: MIT + file LICENSE
+MD5sum: 1dc38902d68060bb5bcbe978daaa262a
+NeedsCompilation: no
+
+Package: orderly
+Version: 0.4.0
+Imports: DBI, R6, RSQLite, digest, ids, jsonlite, optparse, withr, yaml
+Suggests: knitr, montagu (>= 0.1.7), png, processx, rmarkdown,
+        testthat, vaultr (>= 0.0.3)
+License: MIT + file LICENSE
+MD5sum: eb8f64d75ddbef425ca75d4998443d20
+NeedsCompilation: no
+
+Package: orderly
+Version: 0.4.3
+Imports: DBI, R6, RSQLite, digest, ids, jsonlite, optparse, withr, yaml
+Suggests: knitr, montagu (>= 0.2.0), png, processx, rmarkdown,
+        testthat, vaultr (>= 0.0.3)
+License: MIT + file LICENSE
+MD5sum: b0fb6b5ed7efba8d00c90b3221992706
+NeedsCompilation: no
+
+Package: orderly
+Version: 0.4.5
+Imports: DBI, R6, RSQLite, digest, ids, jsonlite, optparse, withr, yaml
+Suggests: knitr, montagu (>= 0.2.0), png, processx, rmarkdown,
+        testthat, vaultr (>= 0.0.3)
+License: MIT + file LICENSE
+MD5sum: 91db9b3a1ca95d06c617dcf25469e55e
+NeedsCompilation: no
+
+Package: orderly
+Version: 0.4.6
+Imports: DBI, R6, RSQLite, digest, ids, jsonlite, optparse, withr, yaml
+Suggests: knitr, montagu (>= 0.2.0), png, processx, rmarkdown,
+        testthat, vaultr (>= 0.0.3)
+License: MIT + file LICENSE
+MD5sum: 9d91f1d2c25b7670b4990e2198729ddf
+NeedsCompilation: no
+
+Package: orderly
+Version: 0.4.8
+Imports: DBI, R6, RSQLite, digest, ids, jsonlite, optparse, withr, yaml
+Suggests: knitr, montagu (>= 0.2.0), png, processx, rmarkdown,
+        testthat, vaultr (>= 0.0.3)
+License: MIT + file LICENSE
+MD5sum: e196e68f32eae559f0b9fdbe019deb7e
+NeedsCompilation: no
+
+Package: orderly
+Version: 0.5.0
+Imports: DBI, R6, RSQLite, digest, ids, jsonlite, optparse, withr, yaml
+Suggests: httr, knitr, montagu (>= 0.2.0), png, processx, rmarkdown,
+        testthat, vaultr (>= 0.0.3)
+License: MIT + file LICENSE
+MD5sum: 07ba9216e58a139c3e067b0fddd4fd89
+NeedsCompilation: no
+
+Package: orderly
+Version: 0.5.1
+Imports: DBI, R6, RSQLite, digest, ids, jsonlite, optparse, withr, yaml
+Suggests: httr, knitr, montagu (>= 0.2.0), png, processx, rmarkdown,
+        testthat, vaultr (>= 0.0.3)
+License: MIT + file LICENSE
+MD5sum: 849a5088b507eda9bb2565c85b478160
+NeedsCompilation: no
+
+Package: orderly
+Version: 0.5.11
+Imports: DBI, R6, RSQLite, digest, ids, jsonlite, optparse, withr, yaml
+Suggests: httr, knitr, mockery, montagu (>= 0.2.4), processx,
+        rmarkdown, testthat, vaultr (>= 0.2.0)
+License: MIT + file LICENSE
+MD5sum: e65fdadcdc13ee30964f4fb095040bc0
+NeedsCompilation: no
+
+Package: orderly
+Version: 0.5.13
+Imports: DBI, R6, RSQLite, digest, ids, jsonlite, optparse, withr, yaml
+Suggests: httr, knitr, mockery, processx, rmarkdown, testthat, vaultr
+        (>= 0.2.0)
+License: MIT + file LICENSE
+MD5sum: 7e562c07deb4ff2da66e31dc29708e1f
+NeedsCompilation: no
+
+Package: orderly
+Version: 0.5.14
+Imports: DBI, R6, RSQLite, digest, ids, jsonlite, optparse, withr, yaml
+Suggests: httr, knitr, mockery, processx, rmarkdown, testthat, vaultr
+        (>= 0.2.0)
+License: MIT + file LICENSE
+MD5sum: a5cefb22482fee81a9e749171c36d2e5
+NeedsCompilation: no
+
+Package: orderly
+Version: 0.5.15
+Imports: DBI, R6, RSQLite, digest, ids, jsonlite, optparse, withr, yaml
+Suggests: httr, knitr, mockery, processx, rmarkdown, testthat, vaultr
+        (>= 0.2.0)
+License: MIT + file LICENSE
+MD5sum: bcc778e923fe6b6113967e8d59eadec0
+NeedsCompilation: no
+
+Package: orderly
+Version: 0.5.17
+Imports: DBI, R6, RSQLite, digest, ids, jsonlite, optparse, withr, yaml
+Suggests: httr, knitr, mockery, processx, rmarkdown, testthat, vaultr
+        (>= 0.2.0)
+License: MIT + file LICENSE
+MD5sum: 2e5a965568c1c97a3074948186b91e83
+NeedsCompilation: no
+
+Package: orderly
+Version: 0.5.18
+Imports: DBI, R6, RSQLite, digest, ids, jsonlite, optparse, withr, yaml
+Suggests: httr, knitr, mockery, processx, rmarkdown, testthat, vaultr
+        (>= 0.2.0)
+License: MIT + file LICENSE
+MD5sum: 047338e8fc1cbc8b224d331ecdf83bf9
+NeedsCompilation: no
+
+Package: orderly
+Version: 0.5.2
+Imports: DBI, R6, RSQLite, digest, ids, jsonlite, optparse, withr, yaml
+Suggests: httr, knitr, montagu (>= 0.2.0), png, processx, rmarkdown,
+        testthat, vaultr (>= 0.0.3)
+License: MIT + file LICENSE
+MD5sum: cc2c65b402aaf794f30c19f91cf06e6a
+NeedsCompilation: no
+
+Package: orderly
+Version: 0.5.9
+Imports: DBI, R6, RSQLite, digest, ids, jsonlite, optparse, withr, yaml
+Suggests: httr, knitr, mockery, montagu (>= 0.2.4), processx,
+        rmarkdown, testthat, vaultr (>= 0.0.3)
+License: MIT + file LICENSE
+MD5sum: 0afb1a17c9388b74f7b92b81d96509fe
+NeedsCompilation: no
+
+Package: orderly
+Version: 0.6.0
+Imports: DBI, R6, RSQLite, digest, ids, jsonlite, optparse, withr, yaml
+Suggests: httr, knitr, mockery, processx, rmarkdown, testthat, vaultr
+        (>= 0.2.0)
+License: MIT + file LICENSE
+MD5sum: 9715608e6f6c4045163044cda68da1de
+NeedsCompilation: no
+
+Package: orderly
+Version: 0.6.2
+Imports: DBI, R6, RSQLite, digest, ids, jsonlite, optparse, withr, yaml
+Suggests: httr, knitr, mockery, processx, rmarkdown, testthat, vaultr
+        (>= 0.2.0)
+License: MIT + file LICENSE
+MD5sum: e0bcf9523ec1d9c54a464344418f691f
+NeedsCompilation: no
+
+Package: orderly
+Version: 0.7.10
+Imports: DBI, R6, RSQLite, digest, ids, jsonlite, optparse, withr, yaml
+Suggests: httr, knitr, mockery, processx, rmarkdown, testthat, vaultr
+        (>= 1.0.0)
+License: MIT + file LICENSE
+MD5sum: a6068d083f58c902c3c603be0c8c54b7
+NeedsCompilation: no
+
+Package: orderly
+Version: 0.7.13
+Imports: DBI, R6, RSQLite, digest, fs, ids, jsonlite, optparse, withr,
+        yaml
+Suggests: httr, knitr, mockery, processx, rmarkdown, testthat, vaultr
+        (>= 1.0.0)
+License: MIT + file LICENSE
+MD5sum: a110fae150d7ec865f2d010a6536ed31
+NeedsCompilation: no
+
+Package: orderly
+Version: 0.7.15
+Imports: DBI, R6, RSQLite, digest, docopt, fs, ids, withr, yaml, zip
+        (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.0)
+License: MIT + file LICENSE
+MD5sum: 1e8e07f32890d702cfcb6128f6139d53
+NeedsCompilation: no
+
+Package: orderly
+Version: 0.7.6
+Imports: DBI, R6, RSQLite, digest, ids, jsonlite, optparse, withr, yaml
+Suggests: httr, knitr, mockery, processx, rmarkdown, testthat, vaultr
+        (>= 1.0.0)
+License: MIT + file LICENSE
+MD5sum: 355c021ba0113e2e7c20a4d6fdcbf252
+NeedsCompilation: no
+
+Package: orderly
+Version: 0.7.7
+Imports: DBI, R6, RSQLite, digest, ids, jsonlite, optparse, withr, yaml
+Suggests: httr, knitr, mockery, processx, rmarkdown, testthat, vaultr
+        (>= 1.0.0)
+License: MIT + file LICENSE
+MD5sum: 3552362513c29fedbf56d16872d376a9
+NeedsCompilation: no
+
+Package: orderly
+Version: 0.8.0
+Imports: DBI, R6, RSQLite, digest, docopt, fs, ids, withr, yaml, zip
+        (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.0)
+License: MIT + file LICENSE
+MD5sum: afd1430654010fd0ed69edb53ec49413
+NeedsCompilation: no
+
+Package: orderly
+Version: 0.8.1
+Imports: DBI, R6, RSQLite, digest, docopt, fs, ids, withr, yaml, zip
+        (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.0)
+License: MIT + file LICENSE
+MD5sum: 62d1a0944e8dc3c86a0da93163e68b59
+NeedsCompilation: no
+
+Package: orderly
+Version: 0.8.2
+Imports: DBI, R6, RSQLite, digest, docopt, fs, ids, withr, yaml, zip
+        (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.0)
+License: MIT + file LICENSE
+MD5sum: 7832590be7e7f2fb44da1791122b475a
+NeedsCompilation: no
+
+Package: orderly
+Version: 1.0.0
+Imports: DBI, R6, RSQLite, digest, docopt, fs (>= 1.2.7), ids, withr,
+        yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.0)
+License: MIT + file LICENSE
+MD5sum: f5a05d7f9cf4f515a4c9054645a590d8
+NeedsCompilation: no
+
+Package: orderly
+Version: 1.0.10
+Imports: DBI, R6, RSQLite, digest, docopt, fs (>= 1.2.7), ids, withr,
+        yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.3)
+License: MIT + file LICENSE
+MD5sum: 79414bc23411f0692eea9b734ab2e5c3
+NeedsCompilation: no
+
+Package: orderly
+Version: 1.0.3
+Imports: DBI, R6, RSQLite, digest, docopt, fs (>= 1.2.7), ids, withr,
+        yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.0)
+License: MIT + file LICENSE
+MD5sum: 5cb0f7a5d3e21acc50922df18dd7eb44
+NeedsCompilation: no
+
+Package: orderly
+Version: 1.0.6
+Imports: DBI, R6, RSQLite, digest, docopt, fs (>= 1.2.7), ids, withr,
+        yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.0)
+License: MIT + file LICENSE
+MD5sum: 2a81721ab25b98e3a898233f530a50ea
+NeedsCompilation: no
+
+Package: orderly
+Version: 1.0.8
+Imports: DBI, R6, RSQLite, digest, docopt, fs (>= 1.2.7), ids, withr,
+        yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.3)
+License: MIT + file LICENSE
+MD5sum: 824fbc208e6b712c9163415aee3dce19
+NeedsCompilation: no
+
+Package: orderly
+Version: 1.0.9
+Imports: DBI, R6, RSQLite, digest, docopt, fs (>= 1.2.7), ids, withr,
+        yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.3)
+License: MIT + file LICENSE
+MD5sum: 0e5eb12cad37ec1e1199b7612401a0b4
+NeedsCompilation: no
+
+Package: orderly
+Version: 1.1.0
+Imports: DBI, R6, RSQLite, digest, docopt, fs (>= 1.2.7), ids, withr,
+        yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.3)
+License: MIT + file LICENSE
+MD5sum: cf787f862d59f5ed89f83ecf70a2b468
+NeedsCompilation: no
+
+Package: orderly
+Version: 1.1.1
+Imports: DBI, R6, RSQLite, digest, docopt, fs (>= 1.2.7), ids, withr,
+        yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.3)
+License: MIT + file LICENSE
+MD5sum: e49e0518dbe63c56d46804b560c9b907
+NeedsCompilation: no
+
+Package: orderly
+Version: 1.1.10
+Imports: DBI, R6, RSQLite, crayon, digest, docopt, fs (>= 1.2.7), ids,
+        withr, yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.3)
+License: MIT + file LICENSE
+MD5sum: 8b05bbd1a64154b61015aaacc185d76d
+NeedsCompilation: no
+
+Package: orderly
+Version: 1.1.11
+Imports: DBI, R6, RSQLite, crayon, digest, docopt, fs (>= 1.2.7), ids,
+        withr, yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.4)
+License: MIT + file LICENSE
+MD5sum: d54208c7f7416d2799fa319bb0108cb0
+NeedsCompilation: no
+
+Package: orderly
+Version: 1.1.13
+Imports: DBI, R6, RSQLite, crayon, digest, docopt, fs (>= 1.2.7), ids,
+        withr, yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.4)
+License: MIT + file LICENSE
+MD5sum: 3f8680db34098523089dadba2d761b26
+NeedsCompilation: no
+
+Package: orderly
+Version: 1.1.14
+Imports: DBI, R6, RSQLite, crayon, digest, docopt, fs (>= 1.2.7), ids,
+        withr, yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.4)
+License: MIT + file LICENSE
+MD5sum: 7ac1f83d4688e4a814ea1417c68799b9
+NeedsCompilation: no
+
+Package: orderly
+Version: 1.1.17
+Imports: DBI, R6, RSQLite, crayon, digest, docopt, fs (>= 1.2.7), ids,
+        withr, yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.4)
+License: MIT + file LICENSE
+MD5sum: cc815485a05ec28774717f956886f06c
+NeedsCompilation: no
+
+Package: orderly
+Version: 1.1.2
+Imports: DBI, R6, RSQLite, crayon, digest, docopt, fs (>= 1.2.7), ids,
+        withr, yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.3)
+License: MIT + file LICENSE
+MD5sum: 6bc042ae6a84839a04b6a2d0ea348231
+NeedsCompilation: no
+
+Package: orderly
+Version: 1.1.20
+Imports: DBI, R6, RSQLite, crayon, digest, docopt, fs (>= 1.2.7), ids,
+        withr, yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.4)
+License: MIT + file LICENSE
+MD5sum: 217cad142bd6304a2b877aaa4acad759
+NeedsCompilation: no
+
+Package: orderly
+Version: 1.1.21
+Imports: DBI, R6, RSQLite, crayon, digest, docopt, fs (>= 1.2.7), ids,
+        withr, yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.4)
+License: MIT + file LICENSE
+MD5sum: 7dced55ebb0a8a34150bfb97dc314d18
+NeedsCompilation: no
+
+Package: orderly
+Version: 1.1.23
+Imports: DBI, R6, RSQLite, crayon, digest, docopt, fs (>= 1.2.7), ids,
+        withr, yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.4)
+License: MIT + file LICENSE
+MD5sum: 316235c247942657efeab8062fde2af5
+NeedsCompilation: no
+
+Package: orderly
+Version: 1.1.24
+Imports: DBI, R6, RSQLite, crayon, digest, docopt, fs (>= 1.2.7), ids,
+        withr, yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.4)
+License: MIT + file LICENSE
+MD5sum: e12750fadce346a84b3fb9d27c2a1432
+NeedsCompilation: no
+
+Package: orderly
+Version: 1.1.25
+Imports: DBI, R6, RSQLite, crayon, digest, docopt, fs (>= 1.2.7), ids,
+        withr, yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.4)
+License: MIT + file LICENSE
+MD5sum: b964fa1bd1847e0f0c27b8a005f22c5d
+NeedsCompilation: no
+
+Package: orderly
+Version: 1.1.28
+Imports: DBI, R6, RSQLite, crayon, digest, docopt, fs (>= 1.2.7), ids,
+        withr, yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.4)
+License: MIT + file LICENSE
+MD5sum: f7213423da7b160b8c9ff7a18fed79a2
+NeedsCompilation: no
+
+Package: orderly
+Version: 1.1.31
+Imports: DBI, R6, RSQLite, crayon, digest, docopt, fs (>= 1.2.7), ids,
+        withr, yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.4)
+License: MIT + file LICENSE
+MD5sum: 6de46698a361418af42a41fe64e51634
+NeedsCompilation: no
+
+Package: orderly
+Version: 1.1.32
+Imports: DBI, R6, RSQLite, crayon, digest, docopt, fs (>= 1.2.7), ids,
+        withr, yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.4)
+License: MIT + file LICENSE
+MD5sum: 8402709b0952099600f110cc235cc7ec
+NeedsCompilation: no
+
+Package: orderly
+Version: 1.1.35
+Imports: DBI, R6, RSQLite, crayon, digest, docopt, fs (>= 1.2.7), ids,
+        withr, yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.4)
+License: MIT + file LICENSE
+MD5sum: 860ed439c1ba94ff2a2a8a683ca8826b
+NeedsCompilation: no
+
+Package: orderly
+Version: 1.1.6
+Imports: DBI, R6, RSQLite, crayon, digest, docopt, fs (>= 1.2.7), ids,
+        withr, yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.3)
+License: MIT + file LICENSE
+MD5sum: 8cd95b90742672e2bf36d6960a1b6db8
+NeedsCompilation: no
+
+Package: orderly
+Version: 1.1.7
+Imports: DBI, R6, RSQLite, crayon, digest, docopt, fs (>= 1.2.7), ids,
+        withr, yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.3)
+License: MIT + file LICENSE
+MD5sum: 07a3ca1d473a9425e5ae0a3f42089647
+NeedsCompilation: no
+
+Package: orderly
 Version: 1.2.0
 Imports: DBI, R6, RSQLite, crayon, digest, docopt, fs (>= 1.2.7), ids,
         withr, yaml, zip (>= 2.0.0)
@@ -83,6 +1072,72 @@ Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
         testthat, vaultr (>= 1.0.4)
 License: MIT + file LICENSE
 MD5sum: 7665198a45b859d19c4d697b79b4af86
+NeedsCompilation: no
+
+Package: orderly
+Version: 1.2.18
+Imports: DBI, R6, RSQLite, crayon, digest, docopt, fs (>= 1.2.7), ids,
+        withr, yaml, zip (>= 2.0.0)
+Suggests: httr, jsonlite, knitr, mockery, processx, rmarkdown,
+        testthat, vaultr (>= 1.0.4)
+License: MIT + file LICENSE
+MD5sum: fc879a66ce057bbeffd441ad218a9981
+NeedsCompilation: no
+
+Package: orderlyweb
+Version: 0.1.1
+Imports: R6, httr, jsonlite, orderly (>= 0.7.11), progress
+Suggests: mockery, testthat
+License: MIT + file LICENSE
+MD5sum: 941d63a5f3590987be30d7372b701a5c
+NeedsCompilation: no
+
+Package: orderlyweb
+Version: 0.1.2
+Imports: R6, httr, jsonlite, orderly (>= 0.7.11), progress
+Suggests: mockery, testthat
+License: MIT + file LICENSE
+MD5sum: c80a5defcb043adaa3c5e4c179c22032
+NeedsCompilation: no
+
+Package: orderlyweb
+Version: 0.1.3
+Imports: R6, httr, jsonlite, orderly (>= 0.7.11), progress
+Suggests: mockery, testthat
+License: MIT + file LICENSE
+MD5sum: fb9f216a39bbeb968a3e1f9543cebe60
+NeedsCompilation: no
+
+Package: orderlyweb
+Version: 0.1.4
+Imports: R6, httr, jsonlite, orderly (>= 0.7.11), progress
+Suggests: mockery, testthat
+License: MIT + file LICENSE
+MD5sum: 448bcb8fade9b708c763a6abc4f49855
+NeedsCompilation: no
+
+Package: orderlyweb
+Version: 0.1.5
+Imports: R6, httr, jsonlite, orderly (>= 0.7.11), progress
+Suggests: mockery, testthat
+License: MIT + file LICENSE
+MD5sum: c7b7204c568bf4527f069d2b95980786
+NeedsCompilation: no
+
+Package: orderlyweb
+Version: 0.1.6
+Imports: R6, httr, jsonlite, orderly (>= 0.7.11), progress
+Suggests: mockery, testthat
+License: MIT + file LICENSE
+MD5sum: 5ebc0992ddc19458f2c79a00a626a479
+NeedsCompilation: no
+
+Package: orderlyweb
+Version: 0.1.7
+Imports: R6, httr, jsonlite, orderly (>= 0.7.11), progress
+Suggests: mockery, testthat
+License: MIT + file LICENSE
+MD5sum: ccfa043177c63ec4f13d940264ebb745
 NeedsCompilation: no
 
 Package: orderlyweb
@@ -102,11 +1157,107 @@ MD5sum: c70134a82b48443671836d5da1ee3f84
 NeedsCompilation: no
 
 Package: pkgapi
+Version: 0.0.2
+Imports: R6, jsonlite, jsonvalidate (>= 1.2.2), plumber
+Suggests: testthat
+License: MIT + file LICENSE
+MD5sum: da8d3f6058ec1fe73f64a039baaddec1
+NeedsCompilation: no
+
+Package: pkgapi
+Version: 0.0.5
+Imports: R6, jsonlite, jsonvalidate (>= 1.2.2), plumber
+Suggests: testthat, withr
+License: MIT + file LICENSE
+MD5sum: a504bd1fc4b3cd43ee0a261795e1c285
+NeedsCompilation: no
+
+Package: pkgapi
+Version: 0.0.6
+Imports: R6, jsonlite, jsonvalidate (>= 1.2.2), plumber
+Suggests: testthat, withr
+License: MIT + file LICENSE
+MD5sum: 5eabb627e788cda50ec75ced9db89ebc
+NeedsCompilation: no
+
+Package: pkgapi
 Version: 0.0.7
 Imports: R6, jsonlite, jsonvalidate (>= 1.2.2), plumber
 Suggests: testthat, withr
 License: MIT + file LICENSE
 MD5sum: fb8d35f2ecc9bdac405f68293bd9115a
+NeedsCompilation: no
+
+Package: vaultr
+Version: 0.0.1
+Imports: R6, httr, jsonlite, prettyunits
+Suggests: processx, testthat, withr
+License: MIT + file LICENSE
+MD5sum: 02d756e694bbfec63e702a8b0c1ab797
+NeedsCompilation: no
+
+Package: vaultr
+Version: 0.0.2
+Imports: R6, httr, jsonlite, prettyunits
+Suggests: processx, testthat, withr
+License: MIT + file LICENSE
+MD5sum: 952a1bf2f55b19e97e0bd07ee2e623be
+NeedsCompilation: no
+
+Package: vaultr
+Version: 0.0.3
+Imports: R6, httr, jsonlite, prettyunits
+Suggests: cyphr, processx, testthat, withr
+License: MIT + file LICENSE
+MD5sum: d605902a18b69bdda78bba04ea9310a6
+NeedsCompilation: no
+
+Package: vaultr
+Version: 0.2.0
+Imports: R6, getPass, httr, jsonlite
+Suggests: knitr, mockery, processx, rmarkdown, testthat, withr
+License: MIT + file LICENSE
+MD5sum: 89be321100c99a800a0595f5076c0ac2
+NeedsCompilation: no
+
+Package: vaultr
+Version: 0.2.4
+Imports: R6, getPass, httr, jsonlite
+Suggests: knitr, mockery, processx, rmarkdown, testthat, withr
+License: MIT + file LICENSE
+MD5sum: d83df9782e84da41534529fc9b5f05f3
+NeedsCompilation: no
+
+Package: vaultr
+Version: 0.2.7
+Imports: R6, getPass, httr, jsonlite
+Suggests: knitr, mockery, processx, rmarkdown, testthat, withr
+License: MIT + file LICENSE
+MD5sum: 3cbe5ccb328dd2d48312be7f7a06f6ef
+NeedsCompilation: no
+
+Package: vaultr
+Version: 1.0.1
+Imports: R6, getPass, httr, jsonlite
+Suggests: knitr, mockery, processx, rmarkdown, testthat, withr
+License: MIT + file LICENSE
+MD5sum: 7e5e757db9b1cdf05017f3a20d15a3a7
+NeedsCompilation: no
+
+Package: vaultr
+Version: 1.0.2
+Imports: R6, getPass, httr, jsonlite
+Suggests: knitr, mockery, processx, rmarkdown, testthat, withr
+License: MIT + file LICENSE
+MD5sum: ddb4e1a24fb952a4357b10918ce272f1
+NeedsCompilation: no
+
+Package: vaultr
+Version: 1.0.3
+Imports: R6, getPass, httr, jsonlite
+Suggests: knitr, mockery, processx, rmarkdown, testthat, withr
+License: MIT + file LICENSE
+MD5sum: 2228d7f73df2941c08a6f73a6ba608e5
 NeedsCompilation: no
 
 Package: vaultr
