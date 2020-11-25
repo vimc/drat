@@ -469,6 +469,15 @@ License: MIT + file LICENSE
 MD5sum: 8602e647fdfa00feeab3312d79611b43
 NeedsCompilation: no
 
+Package: orderly.rstudio
+Version: 0.0.2
+Imports: DT, htmlwidgets, miniUI (>= 0.1.1), orderly, rstudioapi (>=
+        0.5), shiny (>= 0.13),
+Suggests: rmarkdown, testthat, withr
+License: MIT + file LICENSE
+MD5sum: 3829211a90203b2efedd517505208e10
+NeedsCompilation: no
+
 Package: orderly.server
 Version: 0.1.2
 Imports: R6, httpuv, jsonlite, optparse, orderly (>= 0.4.4), processx,
