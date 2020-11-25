@@ -1225,6 +1225,14 @@ License: MIT + file LICENSE
 MD5sum: fb8d35f2ecc9bdac405f68293bd9115a
 NeedsCompilation: no
 
+Package: porcelain
+Version: 0.1.0
+Imports: R6, jsonlite, jsonvalidate (>= 1.2.2), plumber
+Suggests: testthat, withr
+License: MIT + file LICENSE
+MD5sum: 5de147024900ea6fcddbb7e86d9b18be
+NeedsCompilation: no
+
 Package: vaultr
 Version: 0.0.1
 Imports: R6, httr, jsonlite, prettyunits
