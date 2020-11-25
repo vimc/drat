@@ -523,6 +523,16 @@ License: MIT + file LICENSE
 MD5sum: eb224aaeb41c04e6c909366f98d810e7
 NeedsCompilation: no
 
+Package: orderly.server
+Version: 0.2.5
+Imports: R6, httpuv, jsonlite, DBI, docopt (>= 0.7.1), orderly (>=
+        1.2.18), pkgapi (>= 0.0.7), processx, webutils, yaml, zip
+Suggests: httr, jsonvalidate (>= 1.2.2), mockery, RSQLite, sys,
+        testthat, withr
+License: MIT + file LICENSE
+MD5sum: c657c81cbe8c3d66423df8b1f7ff25fa
+NeedsCompilation: no
+
 Package: orderly.sharepoint
 Version: 0.1.0
 Imports: orderly (>= 1.1.32), pointr (>= 0.1.4), zip
