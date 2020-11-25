@@ -77,6 +77,16 @@ MD5sum: ebc290056e8a032b73e326fbf2e05f94
 NeedsCompilation: no
 
 Package: dettl
+Version: 0.0.19
+Depends: R (>= 3.5.0)
+Imports: bit64, DBI, gert, R6, testthat, yaml, withr, writexl
+Suggests: docopt, knitr, mockery, readxl, rmarkdown, RPostgres,
+        RSQLite, vaultr (>= 0.2.2)
+License: MIT + file LICENSE
+MD5sum: 956c4f6dfc6b48dbab22da8ecd961a0f
+NeedsCompilation: no
+
+Package: dettl
 Version: 0.0.8
 Imports: bit64, DBI, gert, R6, yaml, withr, writexl
 Suggests: knitr, mockery, readxl, rmarkdown, RPostgres, RSQLite,
