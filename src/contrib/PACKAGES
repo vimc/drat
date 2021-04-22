@@ -293,7 +293,7 @@ Version: 1.2.2
 Imports: V8
 Suggests: knitr, jsonlite, rmarkdown, testthat
 License: MIT + file LICENSE
-MD5sum: 37060f67b54c68f41d9b53c32345d5b5
+MD5sum: 768687150528d2fca27736ba880f3d50
 NeedsCompilation: no
 
 Package: montagu
