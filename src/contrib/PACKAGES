@@ -1353,6 +1353,15 @@ License: MIT + file LICENSE
 MD5sum: d17944fd7f79a30a9aeb98567203afa0
 NeedsCompilation: no
 
+Package: spud
+Version: 0.1.7
+Depends: R (>= 3.5.0)
+Imports: getPass, glue, httr, jsonlite, tools, xml2
+Suggests: mockery, testthat, tibble (>= 3.0.0), withr
+License: MIT + file LICENSE
+MD5sum: 94f9e3c4b9f656f61b309402c7fae2cd
+NeedsCompilation: no
+
 Package: vaultr
 Version: 0.0.1
 Imports: R6, httr, jsonlite, prettyunits
