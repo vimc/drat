@@ -610,6 +610,17 @@ MD5sum: 52bdfce42b69815dc6c3111f3a58dfe0
 NeedsCompilation: no
 
 Package: orderly.server
+Version: 0.3.30
+Imports: DBI, R6, docopt (>= 0.7.1), ids, jsonlite, lgr, orderly (>=
+        1.4.10), porcelain (>= 0.1.9), processx, redux, rrq (>= 0.5.6),
+        utils, yaml
+Suggests: callr, gert (>= 1.6.0), httr, jsonvalidate (>= 1.2.2),
+        mockery, RSQLite, testthat, withr, zip
+License: MIT + file LICENSE
+MD5sum: 47c7981310b36228a5c85e7b69f5a1a3
+NeedsCompilation: no
+
+Package: orderly.server
 Version: 0.3.7
 Imports: DBI, R6, docopt (>= 0.7.1), heartbeatr, ids, jsonlite, orderly
         (>= 1.2.30), porcelain (>= 0.1.0), processx, redux, rrq (>=
