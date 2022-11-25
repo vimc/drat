@@ -62,6 +62,14 @@ License: MIT + file LICENSE
 MD5sum: 62cc7596d3f80f1225d0450b747958bb
 NeedsCompilation: no
 
+Package: cyphr
+Version: 1.1.4
+Imports: getPass, openssl (>= 0.9.9), sodium (>= 1.2.1)
+Suggests: knitr, rmarkdown, testthat
+License: MIT + file LICENSE
+MD5sum: d624a47ece3c80b3fc0713e7a766effa
+NeedsCompilation: no
+
 Package: dettl
 Version: 0.0.13
 Depends: R (>= 3.5.0)
