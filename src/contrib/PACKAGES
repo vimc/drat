@@ -520,175 +520,6 @@ License: MIT + file LICENSE
 MD5sum: e6ee2988eb914664bb59b7b7b7c219c3
 NeedsCompilation: no
 
-Package: orderly.rstudio
-Version: 0.0.1
-Imports: DT, htmlwidgets, miniUI (>= 0.1.1), orderly, rstudioapi (>=
-        0.5), shiny (>= 0.13),
-Suggests: rmarkdown, testthat, withr
-License: MIT + file LICENSE
-MD5sum: 8602e647fdfa00feeab3312d79611b43
-NeedsCompilation: no
-
-Package: orderly.rstudio
-Version: 0.0.2
-Imports: DT, htmlwidgets, miniUI (>= 0.1.1), orderly, rstudioapi (>=
-        0.5), shiny (>= 0.13),
-Suggests: rmarkdown, testthat, withr
-License: MIT + file LICENSE
-MD5sum: 3829211a90203b2efedd517505208e10
-NeedsCompilation: no
-
-Package: orderly.rstudio
-Version: 0.0.3
-Imports: DT, htmlwidgets, miniUI (>= 0.1.1), orderly (>= 1.2.30),
-        rstudioapi (>= 0.5), shiny (>= 0.13), withr
-Suggests: mockery, rmarkdown, testthat
-License: MIT + file LICENSE
-MD5sum: a0fc6324d98928168f974b3619abff7d
-NeedsCompilation: no
-
-Package: orderly.server
-Version: 0.1.2
-Imports: R6, httpuv, jsonlite, optparse, orderly (>= 0.4.4), processx,
-        webutils
-Suggests: httr, jsonvalidate, sys, testthat
-License: MIT + file LICENSE
-MD5sum: 5891b42733c3be14f1c94b319a619256
-NeedsCompilation: no
-
-Package: orderly.server
-Version: 0.1.3
-Imports: R6, httpuv, jsonlite, optparse, orderly (>= 0.7.0), processx,
-        webutils
-Suggests: httr, jsonvalidate, sys, testthat
-License: MIT + file LICENSE
-MD5sum: 86cfd65a439fca087067ab0c63cfa2f6
-NeedsCompilation: no
-
-Package: orderly.server
-Version: 0.1.4
-Imports: R6, httpuv, jsonlite, docopt, orderly (>= 0.7.14), processx,
-        webutils
-Suggests: httr, jsonvalidate, sys, testthat
-License: MIT + file LICENSE
-MD5sum: c494d900a4b2af081ec836bcd4483dea
-NeedsCompilation: no
-
-Package: orderly.server
-Version: 0.1.5
-Imports: R6, httpuv, jsonlite, docopt, orderly (>= 0.7.14), processx,
-        webutils
-Suggests: httr, jsonvalidate, sys, testthat
-License: MIT + file LICENSE
-MD5sum: 7285581b4d1433fc47928ae9ebaacb5f
-NeedsCompilation: no
-
-Package: orderly.server
-Version: 0.1.6
-Imports: R6, httpuv, jsonlite, docopt, orderly (>= 1.1.34), processx,
-        webutils
-Suggests: httr, jsonvalidate, mockery, sys, testthat
-License: MIT + file LICENSE
-MD5sum: eb224aaeb41c04e6c909366f98d810e7
-NeedsCompilation: no
-
-Package: orderly.server
-Version: 0.2.5
-Imports: R6, httpuv, jsonlite, DBI, docopt (>= 0.7.1), orderly (>=
-        1.2.18), pkgapi (>= 0.0.7), processx, webutils, yaml, zip
-Suggests: httr, jsonvalidate (>= 1.2.2), mockery, RSQLite, sys,
-        testthat, withr
-License: MIT + file LICENSE
-MD5sum: c657c81cbe8c3d66423df8b1f7ff25fa
-NeedsCompilation: no
-
-Package: orderly.server
-Version: 0.3.11
-Imports: DBI, R6, docopt (>= 0.7.1), heartbeatr, ids, jsonlite, orderly
-        (>= 1.2.35), porcelain (>= 0.1.0), processx, redux, rrq (>=
-        0.2.12), webutils, yaml, zip
-Suggests: callr, gert, httr, jsonvalidate (>= 1.2.2), mockery, RSQLite,
-        testthat, withr
-License: MIT + file LICENSE
-MD5sum: 50ca0d599b558e813392f9078dbad542
-NeedsCompilation: no
-
-Package: orderly.server
-Version: 0.3.12
-Imports: DBI, R6, docopt (>= 0.7.1), ids, jsonlite, orderly (>=
-        1.2.35), porcelain (>= 0.1.0), processx, redux, rrq (>= 0.3.0),
-        webutils, yaml, zip
-Suggests: callr, gert, httr, jsonvalidate (>= 1.2.2), mockery, RSQLite,
-        testthat, withr
-License: MIT + file LICENSE
-MD5sum: 2407f9066060eac8b6681876c609e6a3
-NeedsCompilation: no
-
-Package: orderly.server
-Version: 0.3.13
-Imports: DBI, R6, docopt (>= 0.7.1), ids, jsonlite, orderly (>=
-        1.2.35), porcelain (>= 0.1.0), processx, redux, rrq (>= 0.4.3),
-        webutils, yaml, zip
-Suggests: callr, gert, httr, jsonvalidate (>= 1.2.2), mockery, RSQLite,
-        testthat, withr
-License: MIT + file LICENSE
-MD5sum: 52bdfce42b69815dc6c3111f3a58dfe0
-NeedsCompilation: no
-
-Package: orderly.server
-Version: 0.3.30
-Imports: DBI, R6, docopt (>= 0.7.1), ids, jsonlite, lgr, orderly (>=
-        1.4.10), porcelain (>= 0.1.9), processx, redux, rrq (>= 0.5.6),
-        utils, yaml
-Suggests: callr, gert (>= 1.6.0), httr, jsonvalidate (>= 1.2.2),
-        mockery, RSQLite, testthat, withr, zip
-License: MIT + file LICENSE
-MD5sum: 47c7981310b36228a5c85e7b69f5a1a3
-NeedsCompilation: no
-
-Package: orderly.server
-Version: 0.3.7
-Imports: DBI, R6, docopt (>= 0.7.1), heartbeatr, ids, jsonlite, orderly
-        (>= 1.2.30), porcelain (>= 0.1.0), processx, redux, rrq (>=
-        0.2.12), webutils, yaml, zip
-Suggests: callr, gert, httr, jsonvalidate (>= 1.2.2), mockery, RSQLite,
-        testthat, withr
-License: MIT + file LICENSE
-MD5sum: ff2ec8e9ba4cc557b62a339e536517e9
-NeedsCompilation: no
-
-Package: orderly.sharepoint
-Version: 0.1.0
-Imports: orderly (>= 1.1.32), pointr (>= 0.1.4), zip
-Suggests: mockery, testthat
-License: MIT + file LICENSE
-MD5sum: 1ae77edbb9db96ed49bbd70f8c115ea9
-NeedsCompilation: no
-
-Package: orderly.sharepoint
-Version: 0.1.1
-Imports: orderly (>= 1.1.32), spud (>= 0.1.5), zip
-Suggests: mockery, testthat
-License: MIT + file LICENSE
-MD5sum: 582f4bca69262f94cff4f1f7e6717da9
-NeedsCompilation: no
-
-Package: orderly.sharepoint
-Version: 0.1.2
-Imports: orderly (>= 1.1.32), spud (>= 0.1.5), zip
-Suggests: mockery, testthat
-License: MIT + file LICENSE
-MD5sum: 0ac6612b75de62722b87d8421f35ddca
-NeedsCompilation: no
-
-Package: orderly.sharepoint
-Version: 0.1.4
-Imports: orderly (>= 1.1.32), spud (>= 0.1.5), zip
-Suggests: mockery, testthat
-License: MIT + file LICENSE
-MD5sum: 13ee43def9b0ff90c99d1ae886f92980
-NeedsCompilation: no
-
 Package: orderly
 Version: 0.1.0
 Imports: DBI, R6, RSQLite, digest, ids, jsonlite, optparse, withr, yaml
@@ -1299,6 +1130,175 @@ Suggests: httr, jsonlite, knitr, markdown, mockery, processx,
         rmarkdown, testthat, vaultr (>= 1.0.4)
 License: MIT + file LICENSE
 MD5sum: ffb1474cdde41b6745dfd3328251276d
+NeedsCompilation: no
+
+Package: orderly.rstudio
+Version: 0.0.1
+Imports: DT, htmlwidgets, miniUI (>= 0.1.1), orderly, rstudioapi (>=
+        0.5), shiny (>= 0.13),
+Suggests: rmarkdown, testthat, withr
+License: MIT + file LICENSE
+MD5sum: 8602e647fdfa00feeab3312d79611b43
+NeedsCompilation: no
+
+Package: orderly.rstudio
+Version: 0.0.2
+Imports: DT, htmlwidgets, miniUI (>= 0.1.1), orderly, rstudioapi (>=
+        0.5), shiny (>= 0.13),
+Suggests: rmarkdown, testthat, withr
+License: MIT + file LICENSE
+MD5sum: 3829211a90203b2efedd517505208e10
+NeedsCompilation: no
+
+Package: orderly.rstudio
+Version: 0.0.3
+Imports: DT, htmlwidgets, miniUI (>= 0.1.1), orderly (>= 1.2.30),
+        rstudioapi (>= 0.5), shiny (>= 0.13), withr
+Suggests: mockery, rmarkdown, testthat
+License: MIT + file LICENSE
+MD5sum: a0fc6324d98928168f974b3619abff7d
+NeedsCompilation: no
+
+Package: orderly.server
+Version: 0.1.2
+Imports: R6, httpuv, jsonlite, optparse, orderly (>= 0.4.4), processx,
+        webutils
+Suggests: httr, jsonvalidate, sys, testthat
+License: MIT + file LICENSE
+MD5sum: 5891b42733c3be14f1c94b319a619256
+NeedsCompilation: no
+
+Package: orderly.server
+Version: 0.1.3
+Imports: R6, httpuv, jsonlite, optparse, orderly (>= 0.7.0), processx,
+        webutils
+Suggests: httr, jsonvalidate, sys, testthat
+License: MIT + file LICENSE
+MD5sum: 86cfd65a439fca087067ab0c63cfa2f6
+NeedsCompilation: no
+
+Package: orderly.server
+Version: 0.1.4
+Imports: R6, httpuv, jsonlite, docopt, orderly (>= 0.7.14), processx,
+        webutils
+Suggests: httr, jsonvalidate, sys, testthat
+License: MIT + file LICENSE
+MD5sum: c494d900a4b2af081ec836bcd4483dea
+NeedsCompilation: no
+
+Package: orderly.server
+Version: 0.1.5
+Imports: R6, httpuv, jsonlite, docopt, orderly (>= 0.7.14), processx,
+        webutils
+Suggests: httr, jsonvalidate, sys, testthat
+License: MIT + file LICENSE
+MD5sum: 7285581b4d1433fc47928ae9ebaacb5f
+NeedsCompilation: no
+
+Package: orderly.server
+Version: 0.1.6
+Imports: R6, httpuv, jsonlite, docopt, orderly (>= 1.1.34), processx,
+        webutils
+Suggests: httr, jsonvalidate, mockery, sys, testthat
+License: MIT + file LICENSE
+MD5sum: eb224aaeb41c04e6c909366f98d810e7
+NeedsCompilation: no
+
+Package: orderly.server
+Version: 0.2.5
+Imports: R6, httpuv, jsonlite, DBI, docopt (>= 0.7.1), orderly (>=
+        1.2.18), pkgapi (>= 0.0.7), processx, webutils, yaml, zip
+Suggests: httr, jsonvalidate (>= 1.2.2), mockery, RSQLite, sys,
+        testthat, withr
+License: MIT + file LICENSE
+MD5sum: c657c81cbe8c3d66423df8b1f7ff25fa
+NeedsCompilation: no
+
+Package: orderly.server
+Version: 0.3.11
+Imports: DBI, R6, docopt (>= 0.7.1), heartbeatr, ids, jsonlite, orderly
+        (>= 1.2.35), porcelain (>= 0.1.0), processx, redux, rrq (>=
+        0.2.12), webutils, yaml, zip
+Suggests: callr, gert, httr, jsonvalidate (>= 1.2.2), mockery, RSQLite,
+        testthat, withr
+License: MIT + file LICENSE
+MD5sum: 50ca0d599b558e813392f9078dbad542
+NeedsCompilation: no
+
+Package: orderly.server
+Version: 0.3.12
+Imports: DBI, R6, docopt (>= 0.7.1), ids, jsonlite, orderly (>=
+        1.2.35), porcelain (>= 0.1.0), processx, redux, rrq (>= 0.3.0),
+        webutils, yaml, zip
+Suggests: callr, gert, httr, jsonvalidate (>= 1.2.2), mockery, RSQLite,
+        testthat, withr
+License: MIT + file LICENSE
+MD5sum: 2407f9066060eac8b6681876c609e6a3
+NeedsCompilation: no
+
+Package: orderly.server
+Version: 0.3.13
+Imports: DBI, R6, docopt (>= 0.7.1), ids, jsonlite, orderly (>=
+        1.2.35), porcelain (>= 0.1.0), processx, redux, rrq (>= 0.4.3),
+        webutils, yaml, zip
+Suggests: callr, gert, httr, jsonvalidate (>= 1.2.2), mockery, RSQLite,
+        testthat, withr
+License: MIT + file LICENSE
+MD5sum: 52bdfce42b69815dc6c3111f3a58dfe0
+NeedsCompilation: no
+
+Package: orderly.server
+Version: 0.3.30
+Imports: DBI, R6, docopt (>= 0.7.1), ids, jsonlite, lgr, orderly (>=
+        1.4.10), porcelain (>= 0.1.9), processx, redux, rrq (>= 0.5.6),
+        utils, yaml
+Suggests: callr, gert (>= 1.6.0), httr, jsonvalidate (>= 1.2.2),
+        mockery, RSQLite, testthat, withr, zip
+License: MIT + file LICENSE
+MD5sum: 3ed84b391d7fddee9c2eca2c418db199
+NeedsCompilation: no
+
+Package: orderly.server
+Version: 0.3.7
+Imports: DBI, R6, docopt (>= 0.7.1), heartbeatr, ids, jsonlite, orderly
+        (>= 1.2.30), porcelain (>= 0.1.0), processx, redux, rrq (>=
+        0.2.12), webutils, yaml, zip
+Suggests: callr, gert, httr, jsonvalidate (>= 1.2.2), mockery, RSQLite,
+        testthat, withr
+License: MIT + file LICENSE
+MD5sum: ff2ec8e9ba4cc557b62a339e536517e9
+NeedsCompilation: no
+
+Package: orderly.sharepoint
+Version: 0.1.0
+Imports: orderly (>= 1.1.32), pointr (>= 0.1.4), zip
+Suggests: mockery, testthat
+License: MIT + file LICENSE
+MD5sum: 1ae77edbb9db96ed49bbd70f8c115ea9
+NeedsCompilation: no
+
+Package: orderly.sharepoint
+Version: 0.1.1
+Imports: orderly (>= 1.1.32), spud (>= 0.1.5), zip
+Suggests: mockery, testthat
+License: MIT + file LICENSE
+MD5sum: 582f4bca69262f94cff4f1f7e6717da9
+NeedsCompilation: no
+
+Package: orderly.sharepoint
+Version: 0.1.2
+Imports: orderly (>= 1.1.32), spud (>= 0.1.5), zip
+Suggests: mockery, testthat
+License: MIT + file LICENSE
+MD5sum: 0ac6612b75de62722b87d8421f35ddca
+NeedsCompilation: no
+
+Package: orderly.sharepoint
+Version: 0.1.4
+Imports: orderly (>= 1.1.32), spud (>= 0.1.5), zip
+Suggests: mockery, testthat
+License: MIT + file LICENSE
+MD5sum: 13ee43def9b0ff90c99d1ae886f92980
 NeedsCompilation: no
 
 Package: orderlyweb
